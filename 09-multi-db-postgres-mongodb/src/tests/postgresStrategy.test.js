@@ -13,7 +13,7 @@ const MOCK_HEROI_ATUALIZAR = {
     poder: 'Dinheiro'
 }
 
-describe('Postgres Strategy', function() {
+ describe('Postgres Strategy', function() {
     this.timeout(Infinity)
     this.beforeAll(async function (){
         await context.connect()
